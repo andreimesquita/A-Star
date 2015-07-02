@@ -47,6 +47,7 @@ public class SobreJFrame extends JDialog
 	    public void paint(Graphics g) {
 		super.paint(g);
 		g.drawRect(0, 0, getWidth() - 1, getHeight() - 1);
+		g.drawRect(1, 1, getWidth() - 3, getHeight() - 3);
 	    }
 	};
 	panel.setBackground(Color.GRAY.darker());
