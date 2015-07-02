@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2seproject</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-project/3">
+            <name>AStar_Pathfinding</name>
+            <source-roots>
+                <root id="src.dir"/>
+            </source-roots>
+            <test-roots>
+                <root id="test.src.dir"/>
+            </test-roots>
+        </data>
+        <spellchecker-wordlist xmlns="http://www.netbeans.org/ns/spellchecker-wordlist/1">
+            <word>algoritmo</word>
+            <word>ao</word>
+            <word>atual</word>
+            <word>caminho</word>
+            <word>classe</word>
+            <word>contém</word>
+            <word>correta</word>
+            <word>corretamente</word>
+            <word>Custo</word>
+            <word>deste</word>
+            <word>determinada</word>
+            <word>empregar</word>
+            <word>entre</word>
+            <word>Esta</word>
+            <word>Estimativa</word>
+            <word>estrutura</word>
+            <word>execução</word>
+            <word>formato</word>
+            <word>grafo</word>
+            <word>grafos</word>
+            <word>inicial</word>
+            <word>lógica</word>
+            <word>maior</word>
+            <word>movimento</word>
+            <word>necessária</word>
+            <word>Nodo</word>
+            <word>onde</word>
+            <word>organizado</word>
+            <word>pelas</word>
+            <word>posição</word>
+            <word>Representa</word>
+            <word>Retorna</word>
+            <word>sua</word>
+            <word>um</word>
+            <word>uma</word>
+            <word>variáveis</word>
+        </spellchecker-wordlist>
+    </configuration>
+</project>
