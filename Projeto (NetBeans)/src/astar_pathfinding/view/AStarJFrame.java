@@ -2,9 +2,7 @@ package astar_pathfinding.view;
 
 import astar_pathfinding.controller.GridManagerController;
 import astar_pathfinding.controller.Pathfinding;
-import astar_pathfinding.view.SobreJFrame;
 import astar_pathfinding.model.Nodo;
-import astar_pathfinding.view.GridJPanel;
 import java.awt.BorderLayout;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
@@ -17,6 +15,8 @@ import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
 import javax.swing.JPanel;
+import javax.swing.JSeparator;
+import javax.swing.SwingConstants;
 
 /**
  * @author Ândrei
@@ -84,7 +84,7 @@ public class AStarJFrame extends JFrame {
 	JMenuBar jmb = new JMenuBar();
 	JMenu jmMenu1 = new JMenu("Arquivo");
 	jmiItem1 = new JMenuItem("Resetar");
-	JMenu jm_jmiMenu1 = new JMenu("Persistir");
+	
 	jmiItem2 = new JMenuItem("Salvar");
 	jmiItem3 = new JMenuItem("Carregar");
 
@@ -101,9 +101,9 @@ public class AStarJFrame extends JFrame {
 	});
 
 	jmMenu1.add(jmiItem1);
-	jm_jmiMenu1.add(jmiItem2);
-	jm_jmiMenu1.add(jmiItem3);
-	jmMenu1.add(jm_jmiMenu1);
+	jmMenu1.add(new JSeparator(SwingConstants.HORIZONTAL));
+	jmMenu1.add(jmiItem2);
+	jmMenu1.add(jmiItem3);
 
 	jmb.add(jmMenu1);
 	jmb.add(jmiSobre);
