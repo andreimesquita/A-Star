@@ -1,0 +1,1 @@
+java -jar "AStar_Pathfinding.jar" 

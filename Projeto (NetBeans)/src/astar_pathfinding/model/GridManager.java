@@ -7,7 +7,6 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
-import java.net.URL;
 import java.util.ArrayList;
 import java.util.Observable;
 /**
@@ -224,8 +223,7 @@ public class GridManager extends Observable {
      */
     public void saveGrid(String fileName) throws FileNotFoundException, IOException, URISyntaxException
     {
-	URL url = new URL((GridManager.class.getProtectionDomain().getCodeSource().getLocation() + "/" + fileName + ".xml"));
-	File f = new File(url.toURI());
+	File f = new File(fileName + ".xml");
 	XStream xstream = new XStream();
 	FileOutputStream fos = new FileOutputStream(f);
 	SavePOJO savePojo = new SavePOJO();
@@ -244,8 +242,7 @@ public class GridManager extends Observable {
     }
 
     public void carregarGrid(String fileName) throws MalformedURLException, URISyntaxException, NullPointerException {
-	URL url = new URL((GridManager.class.getProtectionDomain().getCodeSource().getLocation() + "/" + fileName + ".xml"));
-	File f = new File(url.toURI());
+	File f = new File(fileName + ".xml");
 	if (!f.exists()) throw new NullPointerException("<html><b>ERRO</b>: Não existe uma grid salva!</html>");
 	XStream xstream = new XStream();
 	xstream.alias("save", SavePOJO.class);
@@ -268,5 +265,4 @@ public class GridManager extends Observable {
     public void setIsDiagonalCostEnabled(boolean isDiagonalCostEnabled) {
 	this.isDiagonalCostEnabled = isDiagonalCostEnabled;
     }
-
 }

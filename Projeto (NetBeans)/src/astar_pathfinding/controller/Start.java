@@ -1,5 +1,6 @@
 package astar_pathfinding.controller;
 
+import astar_pathfinding.view.AStarJFrame;
 import astar_pathfinding.model.GridManager;
 import astar_pathfinding.view.GridJPanel;
 import astar_pathfinding.view.InspectorView;
@@ -8,6 +9,7 @@ import java.awt.Dimension;
 import java.awt.EventQueue;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+
 /**
  * @author Ândrei
  */
@@ -27,14 +29,15 @@ public class Start {
 			GridManager grid = new GridManager();
 			grid.create();
 			Pathfinding model = new Pathfinding(grid);
-			// VIEW
+
 			GridJPanel view = new GridJPanel(grid);
 			grid.addObserver(view);
-			// CONTROLLER
+
 			GridManagerController controller = new GridManagerController(grid, view);
-			// MANAGER
-			AStarJFrame mf = new AStarJFrame(view, controller);
 			InspectorView inspectorView = new InspectorView(grid, controller);
+
+			AStarJFrame mf = new AStarJFrame(view, controller);
+
 			grid.addObserver(inspectorView);
 			mf.add(BorderLayout.EAST, inspectorView);
 			mf.setPreferredSize(

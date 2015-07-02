@@ -1,5 +1,6 @@
 package astar_pathfinding.controller;
 
+import astar_pathfinding.view.AStarJFrame;
 import astar_pathfinding.model.GridManager;
 import astar_pathfinding.model.Nodo;
 import astar_pathfinding.view.GridJPanel;
@@ -12,7 +13,6 @@ import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 import java.util.ArrayList;
-import javax.swing.JOptionPane;
 
 /**
  * @author Ândrei
@@ -32,6 +32,7 @@ public class GridManagerController {
 
     /**
      * Construtor
+     *
      * @param gridModel
      * @param view
      */
@@ -66,7 +67,7 @@ public class GridManagerController {
 			    nodo.changePassable();
 			    gridModel.notifyChangesToView();
 			} catch (ArrayIndexOutOfBoundsException | NullPointerException aiobe) {
-			    aiobe.printStackTrace();
+			    AStarJFrame.updateInfo(aiobe.getMessage());
 			}
 		    } else {
 			gridModel.setSelectedNode(null);
@@ -76,11 +77,9 @@ public class GridManagerController {
 			    gridModel.setSelectedNode(nodo);
 			    gridModel.notifyChangesToView();
 			} catch (ArrayIndexOutOfBoundsException | NullPointerException aiobe) {
-			    // Do nothing
+			    AStarJFrame.updateInfo(aiobe.getMessage());
 			}
 		    }
-		} else {
-		    // TODO: Apenas mostrar informações sobre o nodo selecionado
 		}
 	    }
 
@@ -145,7 +144,7 @@ public class GridManagerController {
 		    }
 		    gridModel.notifyChangesToView();
 		} catch (ArrayIndexOutOfBoundsException | NullPointerException ex) {
-		    // Nada a fazer
+		    AStarJFrame.updateInfo(ex.getMessage());
 		}
 	    }
 	};
@@ -171,7 +170,7 @@ public class GridManagerController {
 		    }
 		    gridModel.notifyChangesToView();
 		} catch (ArrayIndexOutOfBoundsException | NullPointerException ex) {
-		    // Nada a fazer
+		    AStarJFrame.updateInfo(ex.getMessage());
 		}
 	    }
 	};
@@ -294,7 +293,7 @@ public class GridManagerController {
 		    gridModel.setSelectedNode(selectedNode);
 		    updateViewBeforeChangeSomething();
 		} catch (ArrayIndexOutOfBoundsException | NullPointerException ex) {
-
+		    AStarJFrame.updateInfo(ex.getMessage());
 		}
 	    }
 	};
