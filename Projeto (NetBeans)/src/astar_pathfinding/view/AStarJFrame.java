@@ -86,8 +86,10 @@ public class AStarJFrame extends JFrame {
 	jmiItem1 = new JMenuItem("Resetar");
 	
 	jmiItem2 = new JMenuItem("Salvar");
+	jmiItem2.setToolTipText("<html>Salva a <i>grid</i> atual na pasta origem do programa.</html>");
 	jmiItem3 = new JMenuItem("Carregar");
-
+	jmiItem2.setToolTipText("<html>Carrega uma <i>grid</i> salva anteriormente na pasta origem do programa.</html>");
+	
 	JMenuItem jmiSobre = new JMenuItem("Sobre");
 	jmiSobre.addActionListener(new ActionListener() {
 	    @Override

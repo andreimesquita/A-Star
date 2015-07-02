@@ -223,7 +223,7 @@ public class GridManager extends Observable {
      */
     public void saveGrid(String fileName) throws FileNotFoundException, IOException, URISyntaxException
     {
-	File f = new File(fileName + ".xml");
+	File f = new File(fileName + ".sav");
 	XStream xstream = new XStream();
 	FileOutputStream fos = new FileOutputStream(f);
 	SavePOJO savePojo = new SavePOJO();
@@ -242,7 +242,7 @@ public class GridManager extends Observable {
     }
 
     public void carregarGrid(String fileName) throws MalformedURLException, URISyntaxException, NullPointerException {
-	File f = new File(fileName + ".xml");
+	File f = new File(fileName + ".sav");
 	if (!f.exists()) throw new NullPointerException("<html><b>ERRO</b>: Não existe uma grid salva!</html>");
 	XStream xstream = new XStream();
 	xstream.alias("save", SavePOJO.class);
