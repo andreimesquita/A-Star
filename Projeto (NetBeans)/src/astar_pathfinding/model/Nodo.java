@@ -50,14 +50,9 @@ public class Nodo implements Serializable {
      * Atualiza o valor de G.
      * @param maiorPesoDiagonal
      */
-    public void setValorDeG(boolean maiorPesoDiagonal)
+    public void setValorDeG()
     {
-	if (maiorPesoDiagonal)
-	{
 	    this.g = parent.g + (parent.x != x && parent.y != y ? 14 : 10);
-	} else {
-	    this.g = parent.g + 10;
-	}
     }
 
     // GUI Controlls

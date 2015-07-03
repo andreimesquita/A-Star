@@ -88,11 +88,10 @@ public class Pathfinding
 		    openList.add(neighbor);
 		    neighbor.parent = currentNode;
 		    neighbor.calcularValorDeH(end);
-		    neighbor.setValorDeG(diagonal_movement_enabled);
+		    neighbor.setValorDeG();
 		} else if (currentNode.g < neighbor.parent.g) {
 		    neighbor.parent = currentNode;
-		    //gridManager.isIsDiagonalCostEnabled()
-		    neighbor.setValorDeG(diagonal_movement_enabled);
+		    neighbor.setValorDeG();
 		}
 	    }
 	}
