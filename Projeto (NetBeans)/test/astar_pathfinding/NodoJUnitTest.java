@@ -24,7 +24,7 @@ public class NodoJUnitTest {
 	otherNodo.h = 0;
 	otherNodo.g = 0;
 	nodo.parent = otherNodo;
-	nodo.setValorDeG(true);
+        nodo.setValorDeG();
 	nodo.calcularValorDeH(otherNodo);
 	int expectedG = 10, expectedH = Pathfinding.HEURISTIC_VALUE, expectedF = expectedG + expectedH;
 	assertEquals(expectedG, nodo.g);
@@ -36,7 +36,7 @@ public class NodoJUnitTest {
 	otherNodo.h = 0;
 	otherNodo.g = 0;
 	nodo.parent = otherNodo;
-	nodo.setValorDeG(true);
+	nodo.setValorDeG();
 	nodo.calcularValorDeH(otherNodo);
 	assertEquals(expectedG, nodo.g);
 	assertEquals(expectedH, nodo.h);
@@ -47,7 +47,7 @@ public class NodoJUnitTest {
 	otherNodo.g = 0;
 	nodo = new Nodo(2, 1);
 	nodo.parent = otherNodo;
-	nodo.setValorDeG(true);
+	nodo.setValorDeG();
 	nodo.calcularValorDeH(otherNodo);
 	expectedG = 14;
 	expectedH = 30;
@@ -62,7 +62,7 @@ public class NodoJUnitTest {
 	nodo = new Nodo(0, 0);
 	
 	nodo.parent = otherNodo;
-	nodo.setValorDeG(true);
+	nodo.setValorDeG();
 	nodo.calcularValorDeH(otherNodo);
 	expectedG = 14;
 	expectedH = 30;
@@ -77,7 +77,7 @@ public class NodoJUnitTest {
 	otherNodo.h = 50;
 	otherNodo.g = 20;
 	nodo.parent = otherNodo;
-	nodo.setValorDeG(true);
+	nodo.setValorDeG();
 	nodo.calcularValorDeH(otherNodo);
 	expectedG = 34;
 	expectedH = 40;

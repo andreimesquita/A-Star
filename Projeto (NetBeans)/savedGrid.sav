@@ -16,119 +16,44 @@
         <y>1</y>
       </nodo>
       <nodo>
-        <g>42</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>28</g>
-          <h>40</h>
-          <isPassable>true</isPassable>
-          <parent>
-            <g>14</g>
-            <h>90</h>
-            <isPassable>true</isPassable>
-            <parent>
-              <g>0</g>
-              <h>0</h>
-              <isPassable>true</isPassable>
-              <x>3</x>
-              <y>1</y>
-            </parent>
-            <x>2</x>
-            <y>2</y>
-          </parent>
-          <x>1</x>
-          <y>3</y>
-        </parent>
         <x>0</x>
         <y>2</y>
       </nodo>
       <nodo>
-        <g>38</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../nodo[3]/parent"/>
         <x>0</x>
         <y>3</y>
       </nodo>
       <nodo>
-        <g>42</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../nodo[3]/parent"/>
         <x>0</x>
         <y>4</y>
       </nodo>
       <nodo>
-        <g>52</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>58</g>
-          <h>80</h>
-          <isPassable>true</isPassable>
-          <parent>
-            <g>44</g>
-            <h>60</h>
-            <isPassable>true</isPassable>
-            <parent>
-              <g>30</g>
-              <h>60</h>
-              <isPassable>true</isPassable>
-              <parent>
-                <g>20</g>
-                <h>70</h>
-                <isPassable>true</isPassable>
-                <parent>
-                  <g>10</g>
-                  <h>80</h>
-                  <isPassable>true</isPassable>
-                  <parent reference="../../../../../../../nodo[3]/parent/parent/parent"/>
-                  <x>3</x>
-                  <y>2</y>
-                </parent>
-                <x>3</x>
-                <y>3</y>
-              </parent>
-              <x>3</x>
-              <y>4</y>
-            </parent>
-            <x>2</x>
-            <y>5</y>
-          </parent>
-          <x>1</x>
-          <y>4</y>
-        </parent>
         <x>0</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>62</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>54</g>
-          <h>70</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../nodo[6]/parent/parent"/>
-          <x>1</x>
-          <y>5</y>
-        </parent>
         <x>0</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>72</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>58</g>
-          <h>60</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../nodo[6]/parent/parent"/>
-          <x>1</x>
-          <y>6</y>
-        </parent>
         <x>0</x>
         <y>7</y>
       </nodo>
@@ -184,30 +109,51 @@
         <y>0</y>
       </nodo>
       <nodo>
-        <g>28</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[3]/parent/parent"/>
         <x>1</x>
         <y>1</y>
       </nodo>
       <nodo>
-        <g>24</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[3]/parent/parent"/>
         <x>1</x>
         <y>2</y>
       </nodo>
-      <nodo reference="../../nodo-array/nodo[3]/parent"/>
-      <nodo reference="../../nodo-array/nodo[6]/parent"/>
-      <nodo reference="../../nodo-array/nodo[7]/parent"/>
-      <nodo reference="../../nodo-array/nodo[8]/parent"/>
       <nodo>
-        <g>68</g>
+        <g>0</g>
         <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[8]/parent"/>
+        <x>1</x>
+        <y>3</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>1</x>
+        <y>4</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>1</x>
+        <y>5</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>1</x>
+        <y>6</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>1</x>
         <y>7</y>
       </nodo>
@@ -256,74 +202,65 @@
     </nodo-array>
     <nodo-array>
       <nodo>
-        <g>14</g>
-        <h>110</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[3]/parent/parent/parent"/>
         <x>2</x>
         <y>0</y>
       </nodo>
       <nodo>
-        <g>10</g>
-        <h>100</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[3]/parent/parent/parent"/>
         <x>2</x>
         <y>1</y>
       </nodo>
-      <nodo reference="../../nodo-array/nodo[3]/parent/parent"/>
       <nodo>
-        <g>24</g>
-        <h>80</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[6]/parent/parent/parent/parent/parent"/>
+        <x>2</x>
+        <y>2</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>2</x>
         <y>3</y>
       </nodo>
       <nodo>
-        <g>34</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[6]/parent/parent/parent/parent"/>
         <x>2</x>
         <y>4</y>
       </nodo>
-      <nodo reference="../../nodo-array/nodo[6]/parent/parent"/>
       <nodo>
-        <g>54</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[6]/parent/parent"/>
+        <x>2</x>
+        <y>5</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>2</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>72</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>58</g>
-          <h>40</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array/nodo[6]/parent/parent"/>
-          <x>3</x>
-          <y>6</y>
-        </parent>
         <x>2</x>
         <y>7</y>
       </nodo>
       <nodo>
-        <g>82</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>68</g>
-          <h>50</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../nodo[8]/parent"/>
-          <x>3</x>
-          <y>7</y>
-        </parent>
         <x>2</x>
         <y>8</y>
       </nodo>
@@ -365,38 +302,65 @@
     </nodo-array>
     <nodo-array>
       <nodo>
-        <g>10</g>
-        <h>100</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[3]/parent/parent/parent"/>
         <x>3</x>
         <y>0</y>
       </nodo>
-      <nodo reference="../../nodo-array/nodo[3]/parent/parent/parent"/>
-      <nodo reference="../../nodo-array/nodo[6]/parent/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array/nodo[6]/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array/nodo[6]/parent/parent/parent"/>
       <nodo>
         <g>0</g>
         <h>0</h>
-        <isPassable>false</isPassable>
+        <isPassable>true</isPassable>
+        <x>3</x>
+        <y>1</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>3</x>
+        <y>2</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>3</x>
+        <y>3</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>3</x>
+        <y>4</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>3</x>
         <y>5</y>
       </nodo>
-      <nodo reference="../../nodo-array[3]/nodo[8]/parent"/>
-      <nodo reference="../../nodo-array[3]/nodo[9]/parent"/>
       <nodo>
-        <g>86</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>72</g>
-          <h>40</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array[3]/nodo[8]/parent"/>
-          <x>4</x>
-          <y>7</y>
-        </parent>
+        <x>3</x>
+        <y>6</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>3</x>
+        <y>7</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>3</x>
         <y>8</y>
       </nodo>
@@ -438,81 +402,72 @@
     </nodo-array>
     <nodo-array>
       <nodo>
-        <g>14</g>
-        <h>90</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[3]/parent/parent/parent"/>
         <x>4</x>
         <y>0</y>
       </nodo>
       <nodo>
-        <g>10</g>
-        <h>80</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[3]/parent/parent/parent"/>
         <x>4</x>
         <y>1</y>
       </nodo>
       <nodo>
-        <g>14</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array/nodo[3]/parent/parent/parent"/>
         <x>4</x>
         <y>2</y>
       </nodo>
       <nodo>
-        <g>24</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../nodo[3]"/>
         <x>4</x>
         <y>3</y>
       </nodo>
       <nodo>
-        <g>34</g>
-        <h>50</h>
-        <isPassable>true</isPassable>
-        <parent reference="../../nodo[4]"/>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>false</isPassable>
         <x>4</x>
         <y>4</y>
       </nodo>
       <nodo>
         <g>0</g>
         <h>0</h>
-        <isPassable>false</isPassable>
+        <isPassable>true</isPassable>
         <x>4</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>68</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[3]/nodo[8]/parent"/>
         <x>4</x>
         <y>6</y>
       </nodo>
-      <nodo reference="../../nodo-array[4]/nodo[9]/parent"/>
       <nodo>
-        <g>82</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[4]/nodo[9]/parent"/>
+        <x>4</x>
+        <y>7</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>4</x>
         <y>8</y>
       </nodo>
       <nodo>
-        <g>100</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>86</g>
-          <h>20</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array[4]/nodo[9]/parent"/>
-          <x>5</x>
-          <y>8</y>
-        </parent>
         <x>4</x>
         <y>9</y>
       </nodo>
@@ -547,104 +502,86 @@
     </nodo-array>
     <nodo-array>
       <nodo>
-        <g>24</g>
-        <h>80</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[5]/nodo[2]"/>
         <x>5</x>
         <y>0</y>
       </nodo>
       <nodo>
-        <g>20</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[5]/nodo[2]"/>
         <x>5</x>
         <y>1</y>
       </nodo>
       <nodo>
-        <g>24</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[5]/nodo[3]"/>
         <x>5</x>
         <y>2</y>
       </nodo>
       <nodo>
-        <g>28</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[5]/nodo[3]"/>
         <x>5</x>
         <y>3</y>
       </nodo>
       <nodo>
-        <g>38</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../nodo[4]"/>
         <x>5</x>
         <y>4</y>
       </nodo>
       <nodo>
         <g>0</g>
         <h>0</h>
-        <isPassable>false</isPassable>
+        <isPassable>true</isPassable>
         <x>5</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>78</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[5]/nodo[7]"/>
         <x>5</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>82</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[5]/nodo[7]"/>
         <x>5</x>
         <y>7</y>
       </nodo>
-      <nodo reference="../../nodo-array[5]/nodo[10]/parent"/>
       <nodo>
-        <g>96</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[5]/nodo[10]/parent"/>
+        <x>5</x>
+        <y>8</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>5</x>
         <y>9</y>
       </nodo>
       <nodo>
-        <g>114</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>100</g>
-          <h>10</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array[5]/nodo[10]/parent"/>
-          <x>6</x>
-          <y>9</y>
-        </parent>
         <x>5</x>
         <y>10</y>
       </nodo>
       <nodo>
-        <g>124</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>110</g>
-          <h>0</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../nodo[11]/parent"/>
-          <x>6</x>
-          <y>10</y>
-        </parent>
         <x>5</x>
         <y>11</y>
       </nodo>
@@ -665,98 +602,93 @@
     </nodo-array>
     <nodo-array>
       <nodo>
-        <g>34</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[2]"/>
         <x>6</x>
         <y>0</y>
       </nodo>
       <nodo>
-        <g>30</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[2]"/>
         <x>6</x>
         <y>1</y>
       </nodo>
       <nodo>
-        <g>34</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[3]"/>
         <x>6</x>
         <y>2</y>
       </nodo>
       <nodo>
-        <g>38</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[4]"/>
         <x>6</x>
         <y>3</y>
       </nodo>
       <nodo>
-        <g>42</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[4]"/>
         <x>6</x>
         <y>4</y>
       </nodo>
       <nodo>
         <g>0</g>
         <h>0</h>
-        <isPassable>false</isPassable>
+        <isPassable>true</isPassable>
         <x>6</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>88</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[7]"/>
         <x>6</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>92</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[7]"/>
         <x>6</x>
         <y>7</y>
       </nodo>
       <nodo>
-        <g>96</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[8]"/>
         <x>6</x>
         <y>8</y>
       </nodo>
-      <nodo reference="../../nodo-array[6]/nodo[11]/parent"/>
-      <nodo reference="../../nodo-array[6]/nodo[12]/parent"/>
       <nodo>
-        <g>120</g>
+        <g>0</g>
         <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[12]/parent"/>
+        <x>6</x>
+        <y>9</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>6</x>
+        <y>10</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>6</x>
         <y>11</y>
       </nodo>
       <nodo>
-        <g>138</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>124</g>
-          <h>10</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array[6]/nodo[12]/parent"/>
-          <x>7</x>
-          <y>11</y>
-        </parent>
         <x>6</x>
         <y>12</y>
       </nodo>
@@ -770,172 +702,93 @@
     </nodo-array>
     <nodo-array>
       <nodo>
-        <g>44</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[7]/nodo[2]"/>
         <x>7</x>
         <y>0</y>
       </nodo>
       <nodo>
-        <g>40</g>
-        <h>50</h>
-        <isPassable>false</isPassable>
-        <parent reference="../../../nodo-array[7]/nodo[2]"/>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>7</x>
         <y>1</y>
       </nodo>
       <nodo>
         <g>0</g>
         <h>0</h>
-        <isPassable>false</isPassable>
+        <isPassable>true</isPassable>
         <x>7</x>
         <y>2</y>
       </nodo>
       <nodo>
         <g>0</g>
         <h>0</h>
-        <isPassable>false</isPassable>
+        <isPassable>true</isPassable>
         <x>7</x>
         <y>3</y>
       </nodo>
       <nodo>
         <g>0</g>
         <h>0</h>
-        <isPassable>false</isPassable>
+        <isPassable>true</isPassable>
         <x>7</x>
         <y>4</y>
       </nodo>
       <nodo>
         <g>0</g>
         <h>0</h>
-        <isPassable>false</isPassable>
+        <isPassable>true</isPassable>
         <x>7</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>98</g>
+        <g>0</g>
         <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[7]/nodo[7]"/>
         <x>7</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>102</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[7]/nodo[7]"/>
         <x>7</x>
         <y>7</y>
       </nodo>
       <nodo>
-        <g>114</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[11]/parent"/>
         <x>7</x>
         <y>8</y>
       </nodo>
       <nodo>
-        <g>110</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[11]/parent"/>
         <x>7</x>
         <y>9</y>
       </nodo>
       <nodo>
-        <g>114</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[6]/nodo[11]/parent"/>
         <x>7</x>
         <y>10</y>
       </nodo>
-      <nodo reference="../../nodo-array[7]/nodo[13]/parent"/>
       <nodo>
-        <g>172</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>166</g>
-          <h>20</h>
-          <isPassable>true</isPassable>
-          <parent>
-            <g>152</g>
-            <h>20</h>
-            <isPassable>true</isPassable>
-            <parent>
-              <g>142</g>
-              <h>30</h>
-              <isPassable>true</isPassable>
-              <parent>
-                <g>132</g>
-                <h>10</h>
-                <isPassable>true</isPassable>
-                <parent>
-                  <g>118</g>
-                  <h>10</h>
-                  <isPassable>true</isPassable>
-                  <parent>
-                    <g>108</g>
-                    <h>0</h>
-                    <isPassable>true</isPassable>
-                    <parent>
-                      <g>98</g>
-                      <h>10</h>
-                      <isPassable>true</isPassable>
-                      <parent>
-                        <g>88</g>
-                        <h>20</h>
-                        <isPassable>true</isPassable>
-                        <parent>
-                          <g>78</g>
-                          <h>30</h>
-                          <isPassable>true</isPassable>
-                          <parent>
-                            <g>68</g>
-                            <h>40</h>
-                            <isPassable>true</isPassable>
-                            <parent>
-                              <g>58</g>
-                              <h>60</h>
-                              <isPassable>true</isPassable>
-                              <parent reference="../../../../../../../../../../../../../nodo"/>
-                              <x>8</x>
-                              <y>1</y>
-                            </parent>
-                            <x>8</x>
-                            <y>2</y>
-                          </parent>
-                          <x>8</x>
-                          <y>3</y>
-                        </parent>
-                        <x>8</x>
-                        <y>4</y>
-                      </parent>
-                      <x>8</x>
-                      <y>5</y>
-                    </parent>
-                    <x>8</x>
-                    <y>6</y>
-                  </parent>
-                  <x>8</x>
-                  <y>7</y>
-                </parent>
-                <x>9</x>
-                <y>8</y>
-              </parent>
-              <x>9</x>
-              <y>9</y>
-            </parent>
-            <x>9</x>
-            <y>10</y>
-          </parent>
-          <x>8</x>
-          <y>11</y>
-        </parent>
+        <x>7</x>
+        <y>11</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>7</x>
         <y>12</y>
       </nodo>
@@ -949,57 +802,93 @@
     </nodo-array>
     <nodo-array>
       <nodo>
-        <g>54</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo"/>
         <x>8</x>
         <y>0</y>
       </nodo>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent"/>
       <nodo>
-        <g>128</g>
+        <g>0</g>
         <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent"/>
+        <x>8</x>
+        <y>1</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>8</x>
+        <y>2</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>8</x>
+        <y>3</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>8</x>
+        <y>4</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>8</x>
+        <y>5</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>8</x>
+        <y>6</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>8</x>
+        <y>7</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>8</x>
         <y>8</y>
       </nodo>
       <nodo>
-        <g>146</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent"/>
         <x>8</x>
         <y>9</y>
       </nodo>
       <nodo>
-        <g>156</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent"/>
         <x>8</x>
         <y>10</y>
       </nodo>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent"/>
       <nodo>
-        <g>176</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>162</g>
-          <h>10</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array[8]/nodo[13]/parent/parent"/>
-          <x>9</x>
-          <y>11</y>
-        </parent>
+        <x>8</x>
+        <y>11</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>8</x>
         <y>12</y>
       </nodo>
@@ -1013,93 +902,100 @@
     </nodo-array>
     <nodo-array>
       <nodo>
-        <g>72</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent"/>
         <x>9</x>
         <y>0</y>
       </nodo>
       <nodo>
-        <g>68</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent"/>
         <x>9</x>
         <y>1</y>
       </nodo>
       <nodo>
-        <g>72</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent"/>
         <x>9</x>
         <y>2</y>
       </nodo>
       <nodo>
-        <g>82</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent/parent/parent"/>
         <x>9</x>
         <y>3</y>
       </nodo>
       <nodo>
-        <g>92</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent/parent"/>
         <x>9</x>
         <y>4</y>
       </nodo>
       <nodo>
-        <g>102</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent/parent"/>
         <x>9</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>112</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent/parent"/>
         <x>9</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>122</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent/parent/parent"/>
         <x>9</x>
         <y>7</y>
       </nodo>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent/parent"/>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent/parent"/>
-      <nodo reference="../../nodo-array[8]/nodo[13]/parent/parent"/>
-      <nodo reference="../../nodo-array[9]/nodo[13]/parent"/>
       <nodo>
-        <g>172</g>
+        <g>0</g>
         <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[9]/nodo[13]/parent"/>
+        <x>9</x>
+        <y>8</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>9</x>
+        <y>9</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>9</x>
+        <y>10</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>9</x>
+        <y>11</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>9</x>
         <y>12</y>
       </nodo>
       <nodo>
-        <g>190</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>176</g>
-          <h>10</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array[9]/nodo[13]/parent"/>
-          <x>10</x>
-          <y>12</y>
-        </parent>
         <x>9</x>
         <y>13</y>
       </nodo>
@@ -1113,106 +1009,93 @@
         <y>0</y>
       </nodo>
       <nodo>
-        <g>86</g>
-        <h>100</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[10]/nodo[3]"/>
         <x>10</x>
         <y>1</y>
       </nodo>
       <nodo>
-        <g>82</g>
-        <h>90</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[10]/nodo[3]"/>
         <x>10</x>
         <y>2</y>
       </nodo>
       <nodo>
-        <g>86</g>
-        <h>80</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[10]/nodo[3]"/>
         <x>10</x>
         <y>3</y>
       </nodo>
       <nodo>
-        <g>96</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../nodo[4]"/>
         <x>10</x>
         <y>4</y>
       </nodo>
       <nodo>
-        <g>114</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>100</g>
-          <h>60</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../nodo[4]"/>
-          <x>11</x>
-          <y>4</y>
-        </parent>
         <x>10</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>116</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[10]/nodo[6]"/>
         <x>10</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>126</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[10]/nodo[7]"/>
         <x>10</x>
         <y>7</y>
       </nodo>
       <nodo>
-        <g>136</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[10]/nodo[8]"/>
         <x>10</x>
         <y>8</y>
       </nodo>
       <nodo>
-        <g>146</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent/parent"/>
         <x>10</x>
         <y>9</y>
       </nodo>
       <nodo>
-        <g>156</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent/parent"/>
         <x>10</x>
         <y>10</y>
       </nodo>
       <nodo>
-        <g>166</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[8]/nodo[13]/parent/parent"/>
         <x>10</x>
         <y>11</y>
       </nodo>
-      <nodo reference="../../nodo-array[10]/nodo[14]/parent"/>
       <nodo>
-        <g>186</g>
+        <g>0</g>
         <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[10]/nodo[14]/parent"/>
+        <x>10</x>
+        <y>12</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>10</x>
         <y>13</y>
       </nodo>
@@ -1233,98 +1116,86 @@
         <y>1</y>
       </nodo>
       <nodo>
-        <g>100</g>
-        <h>80</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[4]"/>
         <x>11</x>
         <y>2</y>
       </nodo>
       <nodo>
-        <g>96</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[4]"/>
         <x>11</x>
         <y>3</y>
       </nodo>
-      <nodo reference="../../nodo-array[11]/nodo[6]/parent"/>
       <nodo>
-        <g>110</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[6]/parent"/>
+        <x>11</x>
+        <y>4</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>11</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>128</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>114</g>
-          <h>40</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array[11]/nodo[6]/parent"/>
-          <x>12</x>
-          <y>5</y>
-        </parent>
         <x>11</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>130</g>
-        <h>70</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[7]"/>
         <x>11</x>
         <y>7</y>
       </nodo>
       <nodo>
-        <g>140</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[8]"/>
         <x>11</x>
         <y>8</y>
       </nodo>
       <nodo>
-        <g>150</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[9]"/>
         <x>11</x>
         <y>9</y>
       </nodo>
       <nodo>
-        <g>160</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[10]"/>
         <x>11</x>
         <y>10</y>
       </nodo>
       <nodo>
-        <g>170</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[11]"/>
         <x>11</x>
         <y>11</y>
       </nodo>
       <nodo>
-        <g>180</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[12]"/>
         <x>11</x>
         <y>12</y>
       </nodo>
       <nodo>
-        <g>190</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[10]/nodo[14]/parent"/>
         <x>11</x>
         <y>13</y>
       </nodo>
@@ -1352,87 +1223,58 @@
         <y>2</y>
       </nodo>
       <nodo>
-        <g>114</g>
-        <h>60</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[6]/parent"/>
         <x>12</x>
         <y>3</y>
       </nodo>
       <nodo>
-        <g>110</g>
-        <h>50</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[11]/nodo[6]/parent"/>
         <x>12</x>
         <y>4</y>
       </nodo>
-      <nodo reference="../../nodo-array[12]/nodo[7]/parent"/>
       <nodo>
-        <g>124</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[12]/nodo[7]/parent"/>
+        <x>12</x>
+        <y>5</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>12</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>142</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>128</g>
-          <h>20</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../../nodo-array[12]/nodo[7]/parent"/>
-          <x>13</x>
-          <y>6</y>
-        </parent>
         <x>12</x>
         <y>7</y>
       </nodo>
       <nodo>
-        <g>152</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>138</g>
-          <h>10</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../nodo[8]/parent"/>
-          <x>13</x>
-          <y>7</y>
-        </parent>
         <x>12</x>
         <y>8</y>
       </nodo>
       <nodo>
-        <g>162</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>148</g>
-          <h>20</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../nodo[9]/parent"/>
-          <x>13</x>
-          <y>8</y>
-        </parent>
         <x>12</x>
         <y>9</y>
       </nodo>
       <nodo>
-        <g>172</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent>
-          <g>158</g>
-          <h>10</h>
-          <isPassable>true</isPassable>
-          <parent reference="../../../nodo[10]/parent"/>
-          <x>13</x>
-          <y>9</y>
-        </parent>
         <x>12</x>
         <y>10</y>
       </nodo>
@@ -1488,30 +1330,51 @@
         <y>3</y>
       </nodo>
       <nodo>
-        <g>128</g>
-        <h>40</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[12]/nodo[7]/parent"/>
         <x>13</x>
         <y>4</y>
       </nodo>
       <nodo>
-        <g>124</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[12]/nodo[7]/parent"/>
         <x>13</x>
         <y>5</y>
       </nodo>
-      <nodo reference="../../nodo-array[13]/nodo[8]/parent"/>
-      <nodo reference="../../nodo-array[13]/nodo[9]/parent"/>
-      <nodo reference="../../nodo-array[13]/nodo[10]/parent"/>
-      <nodo reference="../../nodo-array[13]/nodo[11]/parent"/>
       <nodo>
-        <g>168</g>
+        <g>0</g>
         <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[13]/nodo[11]/parent"/>
+        <x>13</x>
+        <y>6</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>13</x>
+        <y>7</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>13</x>
+        <y>8</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
+        <x>13</x>
+        <y>9</y>
+      </nodo>
+      <nodo>
+        <g>0</g>
+        <h>0</h>
+        <isPassable>true</isPassable>
         <x>13</x>
         <y>10</y>
       </nodo>
@@ -1574,50 +1437,44 @@
         <y>4</y>
       </nodo>
       <nodo>
-        <g>142</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[13]/nodo[8]/parent"/>
         <x>14</x>
         <y>5</y>
       </nodo>
       <nodo>
-        <g>138</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[13]/nodo[8]/parent"/>
         <x>14</x>
         <y>6</y>
       </nodo>
       <nodo>
-        <g>142</g>
+        <g>0</g>
         <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[13]/nodo[8]/parent"/>
         <x>14</x>
         <y>7</y>
       </nodo>
       <nodo>
-        <g>152</g>
-        <h>30</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[13]/nodo[9]/parent"/>
         <x>14</x>
         <y>8</y>
       </nodo>
       <nodo>
-        <g>162</g>
-        <h>20</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[13]/nodo[10]/parent"/>
         <x>14</x>
         <y>9</y>
       </nodo>
       <nodo>
-        <g>172</g>
-        <h>10</h>
+        <g>0</g>
+        <h>0</h>
         <isPassable>true</isPassable>
-        <parent reference="../../../nodo-array[13]/nodo[11]/parent"/>
         <x>14</x>
         <y>10</y>
       </nodo>
@@ -1744,14 +1601,5 @@
       </nodo>
     </nodo-array>
   </grid>
-  <lastPathFoundCopy>
-    <nodo reference="../../grid/nodo-array/nodo[3]/parent/parent/parent"/>
-  </lastPathFoundCopy>
-  <openListCopy>
-    <nodo reference="../../grid/nodo-array/nodo[3]/parent/parent/parent"/>
-  </openListCopy>
-  <closedListCopy/>
-  <nodoInicial reference="../grid/nodo-array/nodo[3]/parent/parent/parent"/>
-  <nodoFinal reference="../grid/nodo-array/nodo[3]/parent/parent/parent"/>
-  <selectedNode reference="../grid/nodo-array/nodo[3]/parent/parent/parent"/>
+  <selectedNode reference="../grid/nodo-array[2]/nodo"/>
 </save>
