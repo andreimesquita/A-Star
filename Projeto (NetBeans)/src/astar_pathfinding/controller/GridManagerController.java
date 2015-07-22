@@ -254,7 +254,9 @@ public class GridManagerController {
 			    if (nodo != null) {
 				nodo.changePassable();
 				if (gridModel.getNodoA() != null && gridModel.getNodoB() != null) {
-				    gridModel.setLastPathFound(pathfinding.getPath());
+                                    try {
+                                       gridModel.setLastPathFound(pathfinding.getPath());
+                                    } catch (Exception err) {err.printStackTrace();}
 				    AStarJFrame.updateTimeDuration();
 				}
 				gridModel.notifyChangesToView();

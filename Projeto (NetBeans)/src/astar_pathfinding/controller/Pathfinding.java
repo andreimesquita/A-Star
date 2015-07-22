@@ -95,6 +95,9 @@ public class Pathfinding
 		}
 	    }
 	}
+        END_TIME = System.nanoTime();
+	this.gridManager.setClosedListCopy(closedList);
+	this.gridManager.setOpenListCopy(openList);
 	throw new InternalError("Não foi encontrado um caminho entre os pontos A e B.");
     }
 
